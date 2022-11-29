@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;;
+}
+
+.weather-app {
+  background-image: url(../assets/images/cold.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.weather-app.warm {
+  background-image: url(../assets/images/warm.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+main {
+  min-height: 100vh;
+  padding: 2em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+}
+
+.search-box .search-bar {
+  width: 100%;
+  display: block;
+  padding: 20px;
+  margin-top: 3em;
+
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  appearance: none;
+
+  font-size: 18px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.07);
+
+  transition: 0.4s ease;
+}
+
+::placeholder {
+
+  font-family: 'Quicksand', sans-serif;
+  color: #f2f2f2;
+}
+
+::placeholder:focus {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 4px solid #5658fb;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.location-box .location {
+  font-size: 40px;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.location-box .date {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.weather-box .temp {
+  font-size: 100px;
+  color: #f2f2f2;
+}
+
+.weather-box .weather {
+  font-size: 40px;
+  font-weight: 300;
+  color: #f2f2f2;
+
+  text-shadow: black;
+  text-align: center;
+}
+
+.weather-detail__box {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 5em;
+  padding: 1rem;
+
+  border-radius: 10px;
+
+  color: #f2f2f2;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pressure, 
+.humidity, 
+.wind {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.pressure-title,
+.humidity-title,
+.wind-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 3em;
+  left: 0;
+
+  width: 100%;
+  margin: 0 auto;
+
+  font-size: 16px;
+
+  color: #f2f2f2;
+}
+
+footer p {
+  text-align: center;
+}
