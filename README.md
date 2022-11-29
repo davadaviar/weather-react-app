@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Hello Fellas 👋 ...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'll tell you this project at glance. So, just enjoy explore for you...
 
-## Available Scripts
+## What's the weather-react-app 📱 ?
 
-In the project directory, you can run:
+So, seems like the apps name you know that the app use to give you about weather information in many locations. In this apps, the authors create a boundary that the user only search the city that want to know. First appearence this apps will show the default background. For the temperature the author use Celcius Degreess calculation, so if the weather above 30°C the background will change.
 
-### `npm start`
+## What I use in this project ⚙️ ?
+- Visual Studio Code for code editor
+- Openweather API, click this link to explore more on [openweatherapi](https://openweathermap.org/api)
+- Postman API to check the API data in JSON, download the apps in this link [postmanapi](https://www.postman.com/)
+- React.js for the javascript libary, you can explore more on [react.js](https://reactjs.org/)
+- Axios for the react http request, click here for more [axios](https://axios-http.com/docs/intro)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What I learned when doing this project 😕📒 ? 
 
-### `npm test`
+- I learn about React.js library in real case study
+- I learn about Openweather API usage in a real apps
+- I learn about usage of Postman apps to check the data of Openweather API
+- I learn axios usage for fetching data from the Openweather API
+- I learn react hooks such as useState for create and manage the state of component
+- I learn about function programming in this project, so the class component I don't use it anymore in it
+- I learn simple fetching data from public API
+- I learn Javascript method/function Math.floor()
+- I learn Javascript ternary operation in it
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What's next 🤔 ?
 
-### `npm run build`
+Maybe you have some insight for me about write the effective code and reusable, please feel free to contact me on social media below :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Linkedin](https://www.linkedin.com/in/dava-daviar-saputra-116a44221?)
+- [Instagram](https://instagram.com/davadaviarsaputra)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
